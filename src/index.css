@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.symptom-checker {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #1e1e2e;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.chatbot-image {
+    width: 100px;
+    margin: 10px auto;
+}
+
+.suggestions {
+    margin-top: 20px;
+}
+
+.suggestions h2 {
+    font-size: 1.5em;
+}
+
+.suggestions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.suggestions li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #00ffcc;
+}
+
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    background-color: #f5f8fa;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    background-color: #e1e1e1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00b7c2;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #009aa6;
+  }
